@@ -1,0 +1,16 @@
+[
+{
+  "modid": "letsmodreboot",
+  "name": "Let's Mod Reboot",
+  "description": "Tone's Mod made by following Pahimar on Youtube.com",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "www.iwishihadawebsitebutidont.com",
+  "updateUrl": "",
+  "authorList": ["Tone"],
+  "credits": "Thanks for checking this out. It's Nothing Special.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
