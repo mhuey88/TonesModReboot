@@ -22,7 +22,8 @@ group= "com.Tone.letsmodreboot" // http://maven.apache.org/guides/mini/guide-nam
 archivesBaseName = "Let's Mod Reboot"
 
 minecraft {
-    version = "1.7.10-10.13.0.1160"
+    version = "1.7.10-10.13.0.1180"
+    //to update successfully change version numbers and run gradlew setupDecompWorkspace then gradlew eclipse
     runDir = "resources/assets" //eclipse/assets//OR//resources/assets
 }
 
