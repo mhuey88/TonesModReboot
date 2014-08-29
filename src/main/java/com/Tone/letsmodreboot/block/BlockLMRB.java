@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 
+import com.Tone.letsmodreboot.creativetab.creativeTabLMRB;
 import com.Tone.letsmodreboot.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -13,7 +14,7 @@ public class BlockLMRB extends Block {
 	
 	public BlockLMRB(Material material){
 		super(material);
-		 //this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
+	this.setCreativeTab(creativeTabLMRB.LMRB_TAB);
 		
 		
 	}

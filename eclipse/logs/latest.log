@@ -1,86 +1,51 @@
-[05:22:08] [main/ERROR]: Can't find the resource index file: C:\Users\Doe Knobb\Documents\Minecraft Modding Projects\1.7\TonesModReboot\eclipse\C\indexes\1.7.10.json
-[05:22:10] [main/INFO]: Setting user: RUSeriousSon
-[05:22:20] [Client thread/INFO]: LWJGL Version: 2.9.1
-[05:22:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
-[05:22:48] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[05:22:48] [Sound Library Loader/INFO]: Sound engine started
-[05:22:49] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[05:22:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
-[05:22:51] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[05:22:52] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[05:22:55] [Sound Library Loader/INFO]: Sound engine started
-[05:22:57] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
-[05:23:00] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
-[05:23:02] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[05:23:02] [Server thread/INFO]: Generating keypair
-[05:23:06] [Server thread/INFO]: Preparing start region for level 0
-[05:23:07] [Server thread/INFO]: Preparing spawn area: 17%
-[05:23:08] [Server thread/INFO]: Preparing spawn area: 52%
-[05:23:10] [Server thread/INFO]: Changing view distance to 4, from 10
-[05:23:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
-[05:23:14] [Server thread/INFO]: RUSeriousSon[local:E:40cffe0f] logged in with entity id 206 at (1028.4963261643616, 4.0, 709.1509293376012)
-[05:23:14] [Server thread/INFO]: RUSeriousSon joined the game
-[05:23:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5067ms behind, skipping 101 tick(s)
-[05:23:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.say
-[05:23:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.say
-[05:23:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.say
-[05:23:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:24] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:24] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:25] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.say
-[05:23:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.say
-[05:23:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.say
-[05:23:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:30] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:30] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.say
-[05:23:30] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:30] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.step
-[05:23:30] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.sheep.say
-[05:23:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.step
-[05:23:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.say
-[05:23:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.say
-[05:23:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.say
-[05:23:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3228ms behind, skipping 64 tick(s)
-[05:23:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.say
-[05:23:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.step
-[05:23:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.step
-[05:23:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.say
-[05:23:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.step
-[05:23:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.step
-[05:23:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.step
-[05:23:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.step
-[05:23:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.step
-[05:23:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:36] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.say
-[05:23:36] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.sheep.say
-[05:23:36] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.step
-[05:23:37] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.grass
-[05:23:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.step
-[05:23:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.say
-[05:23:40] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.cow.say
-[05:23:40] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.chicken.step
-[05:23:41] [Server thread/INFO]: Saving and pausing game...
-[05:23:41] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/Overworld
-[05:23:41] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/Nether
-[05:23:41] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/The End
-[05:23:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
-[05:23:43] [Server thread/INFO]: Stopping server
-[05:23:43] [Server thread/INFO]: Saving players
-[05:23:43] [Server thread/INFO]: Saving worlds
-[05:23:43] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/Overworld
-[05:23:43] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/Nether
-[05:23:43] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/The End
-[05:23:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
-[05:23:45] [Client thread/INFO]: Stopping!
+[18:42:39] [main/INFO]: Logging in with username & password
+[18:43:11] [main/INFO]: Setting user: RUSeriousSon
+[18:43:18] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:43:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
+[18:43:40] [Sound Library Loader/INFO]: Sound engine started
+[18:43:57] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:43:58] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:43:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
+[18:44:00] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:44:01] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:44:03] [Sound Library Loader/INFO]: Sound engine started
+[18:44:37] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:44:37] [Server thread/INFO]: Generating keypair
+[18:44:39] [Server thread/INFO]: Preparing start region for level 0
+[18:44:41] [Server thread/INFO]: Preparing spawn area: 17%
+[18:44:42] [Server thread/INFO]: Preparing spawn area: 41%
+[18:44:43] [Server thread/INFO]: Preparing spawn area: 72%
+[18:44:44] [Server thread/INFO]: Changing view distance to 4, from 10
+[18:44:49] [Server thread/INFO]: RUSeriousSon[local:E:0eea5a20] logged in with entity id 242 at (967.9887197062386, 4.0, 715.0252304592029)
+[18:44:49] [Server thread/INFO]: RUSeriousSon joined the game
+[18:44:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7283ms behind, skipping 145 tick(s)
+[18:45:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2980ms behind, skipping 59 tick(s)
+[18:45:24] [Server thread/INFO]: Saving and pausing game...
+[18:45:24] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/Overworld
+[18:45:26] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/Nether
+[18:45:26] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/The End
+[18:45:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2130ms behind, skipping 42 tick(s)
+[18:46:25] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2445ms behind, skipping 48 tick(s)
+[18:47:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2346ms behind, skipping 46 tick(s)
+[18:55:25] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2056ms behind, skipping 41 tick(s)
+[18:59:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2339ms behind, skipping 46 tick(s)
+[18:59:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2232ms behind, skipping 44 tick(s)
+[19:01:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2235ms behind, skipping 44 tick(s)
+[19:03:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2364ms behind, skipping 47 tick(s)
+[19:05:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2120ms behind, skipping 42 tick(s)
+[19:08:03] [Server thread/INFO]: Saving and pausing game...
+[19:08:03] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/Overworld
+[19:08:04] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/Nether
+[19:08:04] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/The End
+[19:08:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2088ms behind, skipping 41 tick(s)
+[19:08:14] [Server thread/INFO]: Saving and pausing game...
+[19:08:14] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/Overworld
+[19:08:15] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/Nether
+[19:08:15] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/The End
+[19:08:15] [Server thread/INFO]: Stopping server
+[19:08:15] [Server thread/INFO]: Saving players
+[19:08:15] [Server thread/INFO]: Saving worlds
+[19:08:15] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/Overworld
+[19:08:15] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/Nether
+[19:08:15] [Server thread/INFO]: Saving chunks for level 'Tester Tester'/The End
+[19:08:20] [Client thread/INFO]: Stopping!

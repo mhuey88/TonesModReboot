@@ -16,16 +16,11 @@ public class creativeTabLMRB {
 
 			return ModItems.mapleLeaf;
 			//this is the Icon for the LMRB tab.
+			//return an item and that will become your icon.
 			
 
 		}
 
-		@Override
-		public String getTranslatedTabLabel() {
-
-			return "Let's Mod Reboot";
-
-		}
 
 	};
 
