@@ -1,8 +1,12 @@
 package com.Tone.letsmodreboot;
 
+import net.minecraftforge.oredict.OreDictionary;
+
+import com.Tone.letsmodreboot.client.handler.KeyInputEventHandler;
 import com.Tone.letsmodreboot.handler.ConfigurationHandler;
 import com.Tone.letsmodreboot.init.ModBlocks;
 import com.Tone.letsmodreboot.init.ModItems;
+import com.Tone.letsmodreboot.init.Recipes;
 import com.Tone.letsmodreboot.proxy.IProxy;
 import com.Tone.letsmodreboot.reference.Reference;
 import com.Tone.letsmodreboot.utility.LogHelper;
@@ -30,28 +34,41 @@ public class LetsModReboot {
 
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-		LogHelper.info("Pre Initialization Complete!");
+		
+		proxy.registerKeyBindings();
 		
 		ModItems.init();
 		
 		ModBlocks.init();
 
+		LogHelper.info("Pre Initialization Complete!");
 	}
 
 	@Mod.EventHandler
 	public void Init(FMLInitializationEvent event) {
 
 		// Register GUIs, crafting recipes, and other general handlers.
+	
+		FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+		Recipes.init();
 		LogHelper.info("Initialization Complete!");
+		
 		
 		
 	}
 
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
-		/*if you want to run after other Mods have done there Initialization,
+		/*if you want to run something after other Mods have done there Initialization,
 		 etc.*/
 		LogHelper.info("Post Initialization Complete!");
+		//---------------------------------------------
+		for (String oreName : OreDictionary.getOreNames()){
+			
+			LogHelper.info(oreName);
+			OreDictionary.getOres("stickWood");//oreName
+		};
+		//----- This code is used to search what items are classified as stickWood in the oreDictionary.
 
 	}
 
