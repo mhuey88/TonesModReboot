@@ -8,6 +8,9 @@ keys.letsmodreboot.release=Release
 itemGroup.letsmodreboot=Let's Mod Reboot
 # Items
 item.letsmodreboot:mapleLeaf.name=Maple Leaf of Awesomeness
+item.letsmodreboot:tonesSword.name=Tone's Sword
+item.letsmodreboot:tonesChestPlate.name=Tone's Chest Plate
+
 
 # Blocks
 tile.letsmodreboot:flag.name=Canada Block of Awesomeness

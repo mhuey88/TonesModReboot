@@ -1,5 +1,7 @@
 package com.Tone.letsmodreboot;
 
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.oredict.OreDictionary;
 
 import com.Tone.letsmodreboot.client.handler.KeyInputEventHandler;
@@ -7,6 +9,7 @@ import com.Tone.letsmodreboot.handler.ConfigurationHandler;
 import com.Tone.letsmodreboot.init.ModBlocks;
 import com.Tone.letsmodreboot.init.ModItems;
 import com.Tone.letsmodreboot.init.Recipes;
+import com.Tone.letsmodreboot.init.Smelting;
 import com.Tone.letsmodreboot.proxy.IProxy;
 import com.Tone.letsmodreboot.reference.Reference;
 import com.Tone.letsmodreboot.utility.LogHelper;
@@ -34,11 +37,11 @@ public class LetsModReboot {
 
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-		
+
 		proxy.registerKeyBindings();
-		
+
 		ModItems.init();
-		
+
 		ModBlocks.init();
 
 		LogHelper.info("Pre Initialization Complete!");
@@ -48,27 +51,30 @@ public class LetsModReboot {
 	public void Init(FMLInitializationEvent event) {
 
 		// Register GUIs, crafting recipes, and other general handlers.
-	
+
 		FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
 		Recipes.init();
 		LogHelper.info("Initialization Complete!");
-		
-		
-		
+		Smelting.init();
+
 	}
 
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
-		/*if you want to run something after other Mods have done there Initialization,
-		 etc.*/
+		/*
+		 * if you want to run something after other Mods have done there
+		 * Initialization, etc.
+		 */
 		LogHelper.info("Post Initialization Complete!");
-		//---------------------------------------------
-		for (String oreName : OreDictionary.getOreNames()){
-			
+		// ---------------------------------------------
+		for (String oreName : OreDictionary.getOreNames()) {
+
 			LogHelper.info(oreName);
-			OreDictionary.getOres("stickWood");//oreName
-		};
-		//----- This code is used to search what items are classified as stickWood in the oreDictionary.
+			OreDictionary.getOres("stickWood");// oreName
+		}
+		;
+		// ----- This code is used to search what items are classified as
+		// stickWood in the oreDictionary.
 
 	}
 

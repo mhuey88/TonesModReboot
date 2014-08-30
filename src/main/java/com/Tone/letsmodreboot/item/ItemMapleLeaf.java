@@ -1,6 +1,5 @@
 package com.Tone.letsmodreboot.item;
 
-import com.Tone.letsmodreboot.creativetab.creativeTabLMRB;
 
 
 public class ItemMapleLeaf extends ItemLMRB {
@@ -10,9 +9,6 @@ public class ItemMapleLeaf extends ItemLMRB {
 		super();
 		this.setUnlocalizedName("mapleLeaf");
 		
-	
-
 	}
-	
 
 }
