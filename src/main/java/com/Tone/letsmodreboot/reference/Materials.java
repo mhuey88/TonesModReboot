@@ -14,7 +14,7 @@ public class Materials {
 	}
 	public static final class Armor {
 		
-		public static final ArmorMaterial tArmorStrength = EnumHelper.addArmorMaterial("TonesArmor",66,new int[]{6,16,12,6},10);
+		public static final ArmorMaterial TonesArmor = EnumHelper.addArmorMaterial("TonesArmor",66,new int[]{6,16,12,6},10);
 		
 	}
 	

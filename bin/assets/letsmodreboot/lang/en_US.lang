@@ -9,7 +9,8 @@ itemGroup.letsmodreboot=Let's Mod Reboot
 # Items
 item.letsmodreboot:mapleLeaf.name=Maple Leaf of Awesomeness
 item.letsmodreboot:tonesSword.name=Tone's Sword
-item.letsmodreboot:tonesChestPlate.name=Tone's Chest Plate
+item.letsmodreboot:toneChestPlate.name=Tone's Chest Plate
+
 
 
 # Blocks

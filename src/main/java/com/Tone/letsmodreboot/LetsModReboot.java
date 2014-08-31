@@ -43,9 +43,12 @@ public class LetsModReboot {
 		ModItems.init();
 
 		ModBlocks.init();
+		
+		LMRBTester.init();
 
 		LogHelper.info("Pre Initialization Complete!");
 	}
+
 
 	@Mod.EventHandler
 	public void Init(FMLInitializationEvent event) {

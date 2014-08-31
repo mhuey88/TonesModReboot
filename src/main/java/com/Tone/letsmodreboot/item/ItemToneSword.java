@@ -21,7 +21,7 @@ public class ItemToneSword extends ItemSword {
 		// you could have set as  "super(material.IRON)" and it would have been as strong as iron.
 		this.setUnlocalizedName("tonesSword");
 		this.setCreativeTab(creativeTabLMRB.LMRB_TAB);
-		//this.maxStackSize = 1;
+		
 
 	}
 

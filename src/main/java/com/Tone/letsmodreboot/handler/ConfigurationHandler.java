@@ -36,7 +36,7 @@ public class ConfigurationHandler {
 	private static void loadConfiguration() {
 
 		testValue = configuration.getBoolean("configValue",
-				Configuration.CATEGORY_GENERAL, false,
+				Configuration.CATEGORY_GENERAL, true,
 				"This is an example configuration value");
 
 		if (configuration.hasChanged()) {

@@ -11,17 +11,26 @@ import com.Tone.letsmodreboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
+public class ItemToneChestPlate extends ItemArmor {
+	private static int TA1;
+	
+	
+	
 
-public class ItemToneArmor extends ItemArmor {
-	// item.letsmodreboot:tonesChestPlate.name=Tone's Chest Plate
-
-	private static final int TA1 = 0;
-
-	public ItemToneArmor() {
-		super(Materials.Armor.tArmorStrength,TA1,1);   //0 is helmet--1 is chest -- 2 is legs -- 3 is feet
-		//need to write out a code that draws it on the character
-		this.setUnlocalizedName("tonesChestPlate");
+	public ItemToneChestPlate() {
+		super(Materials.Armor.TonesArmor, TA1, 1);
 		this.setCreativeTab(creativeTabLMRB.LMRB_TAB);
+		this.setUnlocalizedName("toneChestPlate2");
+
+		/*ItemToneArmorSet toneChestPlate = new ItemToneArmorSet();
+		ItemToneArmorSet toneHelmet = new ItemToneArmorSet();
+		ItemToneArmorSet toneLeggings = new ItemToneArmorSet();
+		ItemToneArmorSet toneFeet = new ItemToneArmorSet();
+
+		toneChestPlate.setUnlocalizedName("toneChestPlate");
+		toneHelmet.setUnlocalizedName("toneHelmet");
+		toneLeggings.setUnlocalizedName("toneLeggings");
+		toneFeet.setUnlocalizedName("toneFeet");*/
 
 	}
 
